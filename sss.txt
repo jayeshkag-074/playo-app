@@ -1,0 +1,11 @@
+color: red;                 /* Text color */
+background-color: yellow;   /* Background color */
+font-size: 20px;            /* Text size */
+font-family: Arial;        /* Font */
+text-align: center;        /* Text alignment */
+margin: 20px;              /* Outside spacing */
+padding: 20px;             /* Inside spacing */
+border: 1px solid black;   /* Border */
+border-radius: 10px;       /* Rounded corners */
+width: 200px;              /* Width */
+height: 100px;             /* Height */
