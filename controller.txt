@@ -1,0 +1,57 @@
+package com.playo.controller;
+
+import com.playo.entity.Venue;
+import com.playo.service.VenueService;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+@RestController
+@RequestMapping("/api/venues")
+public class VenueController {
+
+    private final VenueService venueService;
+
+    public VenueController(VenueService venueService) {
+        this.venueService = venueService;
+    }
+
+    // Create a new venue
+    @PostMapping
+    public ResponseEntity<Venue> createVenue(@RequestBody Venue venue) {
+        Venue savedVenue = venueService.createVenue(venue);
+        return ResponseEntity.ok(savedVenue);
+    }
+
+    // Get all venues
+    @GetMapping
+    public ResponseEntity<List<Venue>> getAllVenues() {
+        List<Venue> venues = venueService.getAllVenues();
+        return ResponseEntity.ok(venues);
+    }
+
+    // Get venue by ID
+    @GetMapping("/{id}")
+    public ResponseEntity<Venue> getVenueById(@PathVariable Long id) {
+        Venue venue = venueService.getVenueById(id);
+        return ResponseEntity.ok(venue);
+    }
+
+    // Update venue
+    @PutMapping("/{id}")
+    public ResponseEntity<Venue> updateVenue(
+            @PathVariable Long id,
+            @RequestBody Venue venue) {
+
+        Venue updatedVenue = venueService.updateVenue(id, venue);
+        return ResponseEntity.ok(updatedVenue);
+    }
+
+    // Delete venue
+    @DeleteMapping("/{id}")
+    public ResponseEntity<String> deleteVenue(@PathVariable Long id) {
+        venueService.deleteVenue(id);
+        return ResponseEntity.ok("Venue deleted successfully");
+    }
+}s
