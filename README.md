@@ -1,5 +1,7 @@
 # playo-app
+Author -jayesh kag
 this is a application for booking turf with random friends .
+
 
 # 🎾 PlayHub — Sports Venue Booking Platform
 
