@@ -4,7 +4,7 @@ this is a application for booking turf with random friends .
 All right
 
 
-# 🎾 PlayHub — Sports Venue Booking Platform
+# 🎾 PlayHub — Sports Venue Booking Platform!
 
 PlayHub is a sports venue booking application designed to help users discover sports facilities, explore available venues, and manage their bookings in one place.
 
