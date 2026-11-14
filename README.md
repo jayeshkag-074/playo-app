@@ -24,7 +24,7 @@ The platform aims to simplify sports venue discovery and booking through a user-
 
 ## 🧰 Tech Stack!
 
-### Frontend
+### Frontend!
 - Angular
 - HTML5
 - CSS3
