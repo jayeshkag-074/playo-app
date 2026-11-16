@@ -11,8 +11,8 @@ The platform aims to simplify sports venue discovery and booking through a user-
 
 ## ✨ Features!
 
-- 🏟️ Browse and explore sports venues
-- 🔍 Search for venues by sport or location
+- 🏟️ Browse and explore sports venues.
+- 🔍 Search for venues by sport or location.
 - 📅 Book sports venues and manage reservations
 - 👤 User registration and login
 - 🔐 Authentication and authorization
