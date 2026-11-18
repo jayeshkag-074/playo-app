@@ -65,7 +65,7 @@ playhub-app/
 └── README.md
 ```
 
-## ⚙️ Prerequisites
+## ⚙️ Prerequisites!
 
 Install the following before running the project:
 
