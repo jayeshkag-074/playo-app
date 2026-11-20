@@ -37,7 +37,7 @@ The platform aims to simplify sports venue discovery and booking through a user-
 - Spring Data JPA
 - Spring Security (if configured)
 
-### Database
+### Database!
 - MySQL
 
 ### Development Tools
