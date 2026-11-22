@@ -40,7 +40,7 @@ The platform aims to simplify sports venue discovery and booking through a user-
 ### Database!
 - MySQL
 
-### Development Tools
+### Development Tools!
 - Git and GitHub
 - IntelliJ IDEA
 - Visual Studio Code
