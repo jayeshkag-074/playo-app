@@ -76,7 +76,7 @@ Install the following before running the project:
 - Maven (or use the Maven Wrapper if included)
 - Git
 
-## 🚀 Getting Started
+## 🚀 Getting Started!
 
 ### 1. Clone the Repository
 
