@@ -126,7 +126,7 @@ The backend will typically start at:
 http://localhost:8080
 ```
 
-### 4. Run the Angular Frontend
+### 4. Run the Angular Frontend!
 
 Open another terminal:
 
