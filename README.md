@@ -78,7 +78,7 @@ Install the following before running the project:
 
 ## 🚀 Getting Started!
 
-### 1. Clone the Repository
+### 1. Clone the Repository!
 
 ```bash
 git clone https://github.com/jayeshkag-074/playhub-app.git
