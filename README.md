@@ -85,7 +85,7 @@ git clone https://github.com/jayeshkag-074/playhub-app.git
 cd playhub-app
 ```
 
-### 2. Configure the Database
+### 2. Configure the Database!
 
 Create a MySQL database:
 
